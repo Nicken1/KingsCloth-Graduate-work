@@ -1,0 +1,140 @@
+﻿<Page x:Class="KingsCloth.Pages.HelpMenu"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:KingsCloth.Pages"
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+      xmlns:p="clr-namespace:KingsCloth.Properties"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="HelpMenu">
+
+    <Grid>
+        <Border CornerRadius="10" Background="{DynamicResource TernaryBackgroundColor}"/>
+
+
+        <ScrollViewer>
+            <StackPanel Orientation="Vertical" VerticalAlignment="Center">
+                <Border 
+                CornerRadius="20" 
+                Background="{DynamicResource PrimaryBackgroundColor}" 
+                Margin="0,0,0,0" 
+                Height="auto" 
+                Width="600"
+                materialDesign:ShadowAssist.ShadowDepth="Depth3">
+                    <StackPanel  Width="550" Margin="0,0,0,0">
+                        <TextBlock
+                        Style="{StaticResource MaterialDesignHeadline6TextBlock}"
+                        Text="FAQs" Foreground="{DynamicResource PrimTextColor}" 
+                        Margin="-20,0,0,5"
+                        Padding="20,0,0,0"/>
+                        <Expander
+                        Background="{DynamicResource PrimaryBackgroundColor}"
+                        Foreground="{DynamicResource FAQs}"
+                        HorizontalAlignment="Stretch"
+                        FontFamily="Mukta Light"
+                        
+                        Header="{x:Static p:Resources.FAQ_question_1}">
+                            <StackPanel
+                            Orientation="Vertical"
+                            TextBlock.Foreground="{DynamicResource MaterialDesignBody}"
+                            Width="450"
+                            Height="50"
+                            Margin="24,0,24,12" HorizontalAlignment="Left">
+                                <TextBlock
+                                FontSize="14"
+                                TextWrapping="Wrap"
+                                Foreground="{DynamicResource TextColor}"
+                                Text="{x:Static p:Resources.FAQ_answer_1}" />
+
+                            </StackPanel>
+                        </Expander>
+                        <Border/>
+                        <Expander
+                        Background="{DynamicResource PrimaryBackgroundColor}"
+                        Foreground="{DynamicResource FAQs}"
+                        HorizontalAlignment="Stretch"
+                        FontFamily="Mukta Light"
+                        Header="{x:Static p:Resources.FAQ_question_2}" >
+                            <StackPanel
+                            Orientation="Vertical"
+                            TextBlock.Foreground="{DynamicResource MaterialDesignBody}"
+                            Margin="24,8,24,16">
+                                <TextBlock
+                                FontSize="14"
+                                TextWrapping="Wrap"
+                                Foreground="{DynamicResource TextColor}"
+                                Text="{x:Static p:Resources.FAQ_answer_2}" />
+
+                            </StackPanel>
+                        </Expander>
+                        <Border/>
+                        <Expander
+                        Background="{DynamicResource PrimaryBackgroundColor}"
+                        Foreground="{DynamicResource FAQs}"
+                        FontFamily="Mukta Light"
+                        HorizontalAlignment="Stretch"
+                        Header="{x:Static p:Resources.FAQ_question_3}">
+                            <StackPanel
+                            Orientation="Vertical"
+                            TextBlock.Foreground="{DynamicResource MaterialDesignBody}"
+                            Margin="24,8,24,16">
+                                <TextBlock
+                                FontSize="14"
+                                TextWrapping="Wrap"
+                                Foreground="{DynamicResource TextColor}"
+                                Text="{x:Static p:Resources.FAQ_answer_3}" />
+
+
+                            </StackPanel>
+                        </Expander>
+
+                        <Expander
+                        Background="{DynamicResource PrimaryBackgroundColor}"
+                        Foreground="{DynamicResource FAQs}"
+                        FontFamily="Mukta Light"
+                        HorizontalAlignment="Stretch"
+                        Header="{x:Static p:Resources.FAQ_question_4}">
+                            <StackPanel
+                            Orientation="Vertical"
+                            TextBlock.Foreground="{DynamicResource MaterialDesignBody}"
+                            Margin="24,8,24,16">
+                                <TextBlock
+                                FontSize="14"
+                                TextWrapping="Wrap"
+                                Foreground="{DynamicResource TextColor}"
+                                Text="{x:Static p:Resources.FAQ_answer_4}" />
+
+
+                            </StackPanel>
+                        </Expander>
+
+                        <Expander
+                        Background="{DynamicResource PrimaryBackgroundColor}"
+                        Foreground="{DynamicResource FAQs}"
+                        FontFamily="Mukta Light"
+                        HorizontalAlignment="Stretch"
+                        Header="{x:Static p:Resources.FAQ_question_5}">
+                            <StackPanel
+                            Orientation="Vertical"
+                            TextBlock.Foreground="{DynamicResource MaterialDesignBody}"
+                            Margin="24,8,24,16">
+                                <TextBlock
+                                FontSize="14"
+                                TextWrapping="Wrap"
+                                Foreground="{DynamicResource TextColor}"
+                                Text="{x:Static p:Resources.FAQ_answer_5}" />
+
+
+                            </StackPanel>
+                        </Expander>
+                    </StackPanel>
+                </Border>
+            </StackPanel>
+            
+        </ScrollViewer>
+
+
+    </Grid>
+</Page>

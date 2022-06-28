@@ -1,0 +1,60 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <SolidColorBrush x:Key="PrimaryBackgroundColor" Color="#2f3136"/>
+    <SolidColorBrush x:Key="SecundaryBackgroundColor" Color="#202225"/>
+    <SolidColorBrush x:Key="TernaryBackgroundColor" Color="#36393f"/>
+
+    
+    <!-- Element Colors -->
+    <SolidColorBrush x:Key="Button" Color="#2f3136"/>
+    <SolidColorBrush x:Key="CheckBox" Color="#FF747A80"/>
+    <SolidColorBrush x:Key="ListBox" Color="#2f3136"/>
+
+    <!-- DialogWindow Colors -->
+    <SolidColorBrush x:Key="DialogMain" Color="#2f3136"/>
+    <SolidColorBrush x:Key="DialogBack" Color="#202225"/>
+    <SolidColorBrush x:Key="CatalogDialogBtnColor" Color="#909198"/>
+
+    <!-- Text Colors -->
+    <SolidColorBrush x:Key="TextColor" Color="#78797f"/>
+    <SolidColorBrush x:Key="PrimTextColor" Color="#909198"/>
+    <SolidColorBrush x:Key="BorderBrush" Color="Transparent"/>
+    <SolidColorBrush x:Key="FAQs" Color="#606163"/>
+
+    <!-- Transparent Colors -->
+    <SolidColorBrush x:Key="TransparentTextColorDark" Color="#4C78797F"/>
+    <SolidColorBrush x:Key="TransparentTextColorLight" Color="#4C78797F"/>
+    <SolidColorBrush x:Key="TransparentBackground" Color="#9926272B"/>
+    <SolidColorBrush x:Key="ShadowDropBackground" Color="#7F32353A"/>
+
+    <!-- Color Picker  -->
+    <SolidColorBrush x:Key="TransparentGreen" Color="#9963AB3F"/>
+    <SolidColorBrush x:Key="TransparentRed" Color="#99E64539"/>
+    <SolidColorBrush x:Key="TransparentBlue" Color="#662415D8"/>
+    <SolidColorBrush x:Key="TransparentBlack" Color="#66000000"/>
+    <SolidColorBrush x:Key="TransparentGray" Color="#66414040"/>
+    <SolidColorBrush x:Key="TransparentYellow" Color="#99FFAF00"/>
+    <SolidColorBrush x:Key="TransparentOrange" Color="#99FF5D00"/>
+
+
+
+    <!-- Primary Colors -->
+    <SolidColorBrush x:Key="PrimaryBlueColor" Color="#3772FF"/>
+
+    <!-- Typograhy Colors -->
+    <SolidColorBrush x:Key="PrimaryTextColor" Color="#FFFFFF"/>
+    <SolidColorBrush x:Key="TextSecundaryColor" Color="#B0B7C3"/>
+    <SolidColorBrush x:Key="TextTertiaryColor" Color="#8A94A6"/>
+    <SolidColorBrush x:Key="TextFourthColor" Color="#4B5D78"/>
+
+    <!-- Icon Colors -->
+    <SolidColorBrush x:Key="IconColor" Color="#B0B7C3"/>
+    
+    <SolidColorBrush x:Key="PrimaryIconColor" Color="#B0B7C3"/>
+    <SolidColorBrush x:Key="SecundaryIconColor" Color="#8A94A6"/>
+    <SolidColorBrush x:Key="TertiarIconyColor" Color="#4B5D78"/>
+    <SolidColorBrush x:Key="FourthIconColor" Color="#323B4B"/>
+
+    <SolidColorBrush x:Key="btnClose" Color="#F72626"/>
+
+</ResourceDictionary>

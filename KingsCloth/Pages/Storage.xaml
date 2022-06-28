@@ -1,0 +1,75 @@
+﻿<Page x:Class="KingsCloth.Pages.Storage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:p="clr-namespace:KingsCloth.Properties"
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+      xmlns:local="clr-namespace:KingsCloth.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Storage">
+
+    <Grid>
+        <Border CornerRadius="10" Background="{DynamicResource TernaryBackgroundColor}">
+
+
+        </Border>
+
+        <ListView x:Name="listviewUsers"  
+                  Margin="25,27,25,23" Width="755"
+                  Foreground="{DynamicResource PrimTextColor}"
+                  FontSize="16">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn   Width="120">
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <Image Source="{Binding Path=image}"/>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                        <TextBlock Text="{x:Static p:Resources.Image}" FontSize="14" Foreground="{DynamicResource TextColor}"/>
+                    </GridViewColumn>
+                    <GridViewColumn 
+                        DisplayMemberBinding="{Binding Path=id}" >
+                        <TextBlock Text="id" FontSize="14" Foreground="{DynamicResource TextColor}"/>
+                    </GridViewColumn>
+                    <GridViewColumn 
+                        DisplayMemberBinding="{Binding Path=Name}" 
+                        >
+                        <TextBlock Text="{x:Static p:Resources.Title}" FontSize="14" Foreground="{DynamicResource TextColor}"/>
+                    </GridViewColumn>
+                    <GridViewColumn 
+                        DisplayMemberBinding="{Binding Path=address}" 
+                        Width="104">
+                        <TextBlock Text="{x:Static p:Resources.Address}" FontSize="14" Foreground="{DynamicResource TextColor}"/>
+                    </GridViewColumn>
+                    <GridViewColumn 
+                        DisplayMemberBinding="{Binding Path=capacity}"  
+>
+                        <TextBlock Text="{x:Static p:Resources.Capacity}" FontSize="14" Foreground="{DynamicResource TextColor}"/>
+                    </GridViewColumn>
+                    <GridViewColumn 
+                        DisplayMemberBinding="{Binding Path=phone}" 
+>
+                        <TextBlock Text="{x:Static p:Resources.Phone}" FontSize="14" Foreground="{DynamicResource TextColor}"/>
+                    </GridViewColumn>
+                </GridView>
+            </ListView.View>
+
+            <!--<ListView.ItemContainerStyle>
+                <Style TargetType="{x:Type ListViewItem}">
+                    <Setter Property="Background" Value="Transparent" />
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="{x:Type ListViewItem}">
+                                <ContentPresenter />
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </ListView.ItemContainerStyle>-->
+
+        </ListView>
+    </Grid>
+</Page>

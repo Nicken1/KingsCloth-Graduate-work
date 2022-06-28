@@ -1,0 +1,360 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Access" xml:space="preserve">
+    <value>Доступ</value>
+  </data>
+  <data name="added_product" xml:space="preserve">
+    <value>Продукт добавлен</value>
+  </data>
+  <data name="AddProduct" xml:space="preserve">
+    <value>Добавить продукт</value>
+  </data>
+  <data name="Address" xml:space="preserve">
+    <value>Адрес</value>
+  </data>
+  <data name="AddUserPage" xml:space="preserve">
+    <value>Добавить пользователя</value>
+  </data>
+  <data name="Add_product" xml:space="preserve">
+    <value>Добавить продукт</value>
+  </data>
+  <data name="Add_to_Cart" xml:space="preserve">
+    <value>Добавить а корзину </value>
+  </data>
+  <data name="Add_User" xml:space="preserve">
+    <value>Добавить пользователя</value>
+  </data>
+  <data name="Amount" xml:space="preserve">
+    <value>Количество</value>
+  </data>
+  <data name="BacketPage" xml:space="preserve">
+    <value>Корзина</value>
+  </data>
+  <data name="Black" xml:space="preserve">
+    <value>Черный</value>
+  </data>
+  <data name="Blue" xml:space="preserve">
+    <value>Синий</value>
+  </data>
+  <data name="Capacity" xml:space="preserve">
+    <value>Вместимость</value>
+  </data>
+  <data name="CatalogPage" xml:space="preserve">
+    <value>Каталог</value>
+  </data>
+  <data name="Category" xml:space="preserve">
+    <value>Категория</value>
+  </data>
+  <data name="Color" xml:space="preserve">
+    <value>Цвет</value>
+  </data>
+  <data name="Cost" xml:space="preserve">
+    <value>Цена</value>
+  </data>
+  <data name="Cost1" xml:space="preserve">
+    <value>Цена</value>
+  </data>
+  <data name="Dark" xml:space="preserve">
+    <value>Темная</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Описание</value>
+  </data>
+  <data name="Discounts_and_Referrals" xml:space="preserve">
+    <value>Скидки и промокоды</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="FAQ_answer_1" xml:space="preserve">
+    <value>Свяжитесь со службой поддержки клиентов и сообщите им номер вашего заказа, чтобы получить новый номер для отслеживания.</value>
+  </data>
+  <data name="FAQ_answer_2" xml:space="preserve">
+    <value>Дождитесь следующей поставки продукции</value>
+  </data>
+  <data name="FAQ_answer_3" xml:space="preserve">
+    <value>Новые продукты будут добавлены в ближайшее время</value>
+  </data>
+  <data name="FAQ_answer_4" xml:space="preserve">
+    <value>Срок доставки заказа зависит от службы доставки</value>
+  </data>
+  <data name="FAQ_answer_5" xml:space="preserve">
+    <value>Служба доставки в данный момент недоступна</value>
+  </data>
+  <data name="FAQ_question_1" xml:space="preserve">
+    <value>Что делать, если я не получил номер для отслеживания?</value>
+  </data>
+  <data name="FAQ_question_2" xml:space="preserve">
+    <value>Что делать, если нет товара нужного размера?</value>
+  </data>
+  <data name="FAQ_question_3" xml:space="preserve">
+    <value>Будут ли новые продукты?</value>
+  </data>
+  <data name="FAQ_question_4" xml:space="preserve">
+    <value>Как долго будет доставлен заказ?</value>
+  </data>
+  <data name="FAQ_question_5" xml:space="preserve">
+    <value>Можно ли выбрать службу доставки?</value>
+  </data>
+  <data name="FIO" xml:space="preserve">
+    <value>ФИО</value>
+  </data>
+  <data name="Get_a_check" xml:space="preserve">
+    <value>Получить чек</value>
+  </data>
+  <data name="Graph" xml:space="preserve">
+    <value>График</value>
+  </data>
+  <data name="Gray" xml:space="preserve">
+    <value>Серый</value>
+  </data>
+  <data name="Green" xml:space="preserve">
+    <value>Зелёный</value>
+  </data>
+  <data name="HelpPage" xml:space="preserve">
+    <value>Помощь</value>
+  </data>
+  <data name="HomePage" xml:space="preserve">
+    <value>Главная</value>
+  </data>
+  <data name="Home_Page_Text" xml:space="preserve">
+    <value>Мы предлагаем вам онлайн одежду на все случаи жизни. ''King's Cloth'' (Королевская ткань) - это магазин, предлагающий то, что каждый хочет видеть на себе. Наш магазин предлагает лучший товар по соответствующей цене.</value>
+  </data>
+  <data name="Image" xml:space="preserve">
+    <value>Фото</value>
+  </data>
+  <data name="Info" xml:space="preserve">
+    <value>Информация</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Язык: </value>
+  </data>
+  <data name="Left" xml:space="preserve">
+    <value>Осталось</value>
+  </data>
+  <data name="Light" xml:space="preserve">
+    <value>Светлая</value>
+  </data>
+  <data name="Load_Image" xml:space="preserve">
+    <value>Загрузить фото</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Логин</value>
+  </data>
+  <data name="Material" xml:space="preserve">
+    <value>Материал</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Имя</value>
+  </data>
+  <data name="Order_number" xml:space="preserve">
+    <value>Заказ №: </value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Пароль</value>
+  </data>
+  <data name="Pay" xml:space="preserve">
+    <value>Оплатить</value>
+  </data>
+  <data name="Phone" xml:space="preserve">
+    <value>Телефон</value>
+  </data>
+  <data name="Product" xml:space="preserve">
+    <value>Продуктов</value>
+  </data>
+  <data name="Promo_code" xml:space="preserve">
+    <value>Промокод</value>
+  </data>
+  <data name="Quarterly_profit" xml:space="preserve">
+    <value>Квартальная прибыль</value>
+  </data>
+  <data name="Quarterly_Sales" xml:space="preserve">
+    <value>Ежеквартальные продажи</value>
+  </data>
+  <data name="Red" xml:space="preserve">
+    <value>Красный</value>
+  </data>
+  <data name="RestartAlert#2" xml:space="preserve">
+    <value>Перезапустить сейчас?</value>
+  </data>
+  <data name="RestartButton#1" xml:space="preserve">
+    <value>Позже</value>
+  </data>
+  <data name="RestartButton#2" xml:space="preserve">
+    <value>ОК</value>
+  </data>
+  <data name="RestatAlert" xml:space="preserve">
+    <value>Для смены языка, приложение должно быть перезапущенно.</value>
+  </data>
+  <data name="SettingPage" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="SingIn" xml:space="preserve">
+    <value>Вход</value>
+  </data>
+  <data name="Size" xml:space="preserve">
+    <value>Размер</value>
+  </data>
+  <data name="Stats" xml:space="preserve">
+    <value>Статистика</value>
+  </data>
+  <data name="StatsPage" xml:space="preserve">
+    <value>Статистика</value>
+  </data>
+  <data name="Stats_Page_1" xml:space="preserve">
+    <value>* На этой круговой диаграмме показана общая прибыль за вычетом использованных купонов на скидку и НДС.</value>
+  </data>
+  <data name="Stats_Page_2" xml:space="preserve">
+    <value>* На этой диаграмме показан квартальный доход после уплаты налогов.</value>
+  </data>
+  <data name="Stats_Page_3" xml:space="preserve">
+    <value>* Эта статистика показывает, сколько товаров осталось на складе и их стоимость</value>
+  </data>
+  <data name="Stats_Page_4" xml:space="preserve">
+    <value>* На этой диаграмме показано количество товаров, проданных за квартал.</value>
+  </data>
+  <data name="StoragePage" xml:space="preserve">
+    <value>Склады</value>
+  </data>
+  <data name="Storage_address" xml:space="preserve">
+    <value>Адрес склада</value>
+  </data>
+  <data name="Storage_Stats" xml:space="preserve">
+    <value>Статистика Складов</value>
+  </data>
+  <data name="Surname" xml:space="preserve">
+    <value>Фамилия</value>
+  </data>
+  <data name="Theme" xml:space="preserve">
+    <value>Тема</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Название</value>
+  </data>
+  <data name="Total_cost" xml:space="preserve">
+    <value>Итог: </value>
+  </data>
+  <data name="Update" xml:space="preserve">
+    <value>Обновить</value>
+  </data>
+  <data name="valute" xml:space="preserve">
+    <value>₽</value>
+  </data>
+</root>
